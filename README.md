@@ -1,8 +1,12 @@
 # NodeJS pushes to Git
 
-I was bored one day, and I decided use git in a remote server to add, commit, and push lines of randomly 
-generated code to a repository that is both
-hosted on Bitbucket and on Github.
-I also made it create a new branch every time it pushes so that it doesn't overfill the main branch but can add the files elsewhere.
+I was bored one day, and I decided use git in a remote server to add, commit, 
+and push lines of randomly generated code to a repository that is hosted on both (Bitbucket)[https://bitbucket.org/andihamolli/nodejs-pushes-to-git/] and on (Github)[https://github.com/AndiHamolli/nodejs-pushes-to-git/].
+
+## How does it work?
+
+To not spam the main branch, the bot will create a new branch each time it does a commit to the remote.
+
+The nodeJS bot, basically executes shell commandes via `exec` module of nodejs. I did some interesting improvements to *promisify* the use of `exec` and I might publish that into a repository in the future, as it worked really well.
 
 
