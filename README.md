@@ -1,7 +1,7 @@
 # NodeJS pushes to Git
 
 I was bored one day, and I decided use git in a remote server to add, commit, 
-and push lines of randomly generated code to a repository that is hosted on both (Bitbucket)[https://bitbucket.org/andihamolli/nodejs-pushes-to-git/] and on (Github)[https://github.com/AndiHamolli/nodejs-pushes-to-git/].
+and push lines of randomly generated code to a repository that is hosted on both [Bitbucket](https://bitbucket.org/andihamolli/nodejs-pushes-to-git/) and on [Github](https://github.com/AndiHamolli/nodejs-pushes-to-git/).
 
 ## How does it work?
 
